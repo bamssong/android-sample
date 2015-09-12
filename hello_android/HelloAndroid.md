@@ -3,7 +3,9 @@
 # Helow Android (Mac 환경 )
 
 ### [dev.android.com](http://developer.android.com/index.html)
-### [윈도우 환경 세팅하기 ](http://prolite.tistory.com/456)
+### [윈도우에서 설치 보러가기](http://prolite.tistory.com/456)
+### [Android Studio NDK](http://tools.android.com/tech-docs/new-build-system/gradle-experimental)
+
 
 
 > 단! Mac 10.10 Yosemite 사용자라면, 해당 이슈를 참고해서 설치.
@@ -52,6 +54,7 @@
 
 'Ok' 버튼 선택 
 <br><img src="res/run2.png" width="400px" />
+
 
 
 
