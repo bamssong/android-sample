@@ -1,16 +1,33 @@
 package com.nestberg.audioplayer;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+
+import butterknife.Bind;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
+    @Bind(R.id.button)
+    Button button;
+    @Bind(R.id.button2)
+    Button button2;
+    @Bind(R.id.button3)
+    Button button3;
 
+    /**
+     * https://github.com/psaravan/JamsMusicPlayer
+     *
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
     }
 
     @Override
@@ -33,5 +50,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @OnClick(R.id.button)
+    void onClick(){
+
     }
 }
