@@ -25,7 +25,7 @@
 4. Android Studio 설정 (next ~ next 한다)
 
 5. SDK 다운로드 요청하기
-
+I
 
 	
 
@@ -54,8 +54,5 @@
 
 'Ok' 버튼 선택 
 <br><img src="res/run2.png" width="400px" />
-
-
-
 
 
